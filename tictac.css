@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+#grid{
+    border: 2px black solid;
+} 
+#rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+.columns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 70px;
+        border: 2px black solid;
+        font-size: 30px;
+    }
+}
